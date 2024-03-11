@@ -15,7 +15,7 @@ namespace Data.Models.Data
     public class ApplicationContext : DbContext
     {
         private readonly string _connectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
-        public DbSet<Users> Users { get; set; }
+        public DbSet<User> Users { get; set; }
 
         public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
         {
