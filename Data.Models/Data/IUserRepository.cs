@@ -8,6 +8,6 @@ namespace Data.Models.Data
 {
     public interface IUserRepository
     {
-        /**/
+
     }
 }
