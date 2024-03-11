@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Models", "Data.Models\Data.Models.csproj", "{1D1FCC94-8021-415F-9177-97D52AB3B4BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafeteria.App", "Cafeteria.App\Cafeteria.App.csproj", "{0E83BE75-702A-47DB-8219-43AD857EAE5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D1FCC94-8021-415F-9177-97D52AB3B4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D1FCC94-8021-415F-9177-97D52AB3B4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D1FCC94-8021-415F-9177-97D52AB3B4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D1FCC94-8021-415F-9177-97D52AB3B4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E83BE75-702A-47DB-8219-43AD857EAE5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E83BE75-702A-47DB-8219-43AD857EAE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E83BE75-702A-47DB-8219-43AD857EAE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E83BE75-702A-47DB-8219-43AD857EAE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F335732-AE99-4DD3-88B8-3D67D0BC23BE}
+	EndGlobalSection
+EndGlobal
