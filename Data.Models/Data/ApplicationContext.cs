@@ -17,7 +17,7 @@ namespace Data.Models.Data
         private readonly string _connectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
         public DbSet<Users> Users { get; set; }
 
-        public ApplicationContext()
+        public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
         {
             Database.EnsureDeleted();
             Database.EnsureCreated();
