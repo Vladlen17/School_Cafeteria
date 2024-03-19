@@ -1,4 +1,5 @@
-﻿namespace Data.Models.Services.Repositories
+﻿
+namespace Data.Models.Services.Repositories
 {
     public interface IDatabaseRepository<T> where T : class
     {

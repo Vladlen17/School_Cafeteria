@@ -1,11 +1,12 @@
-﻿using Data.Models.Data;
-using Data.Models.Services.Repositories.Manager;
+﻿using Data.Models.Models.Data;
+using Data.Models.Services.Repositories.ManagerModels;
 using Microsoft.Data.SqlClient;
 using System.Windows;
 using System.Windows.Input;
 
 namespace Cafeteria.App
 {
+#pragma warning disable CS8600 // Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL.
     /// <summary>
     /// Interaction logic for AuthForm.xaml
     /// </summary>
@@ -118,6 +119,7 @@ namespace Cafeteria.App
                 command.Parameters.AddWithValue("@Username", username);
 
                 connection.Open();
+
                 string role = Convert.ToString(command.ExecuteScalar());
 
                 return role;
