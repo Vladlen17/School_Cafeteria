@@ -1,5 +1,5 @@
 ﻿using Data.Models.Data;
-using Data.Models.Models;
+using Data.Models.Services.Repositories.Manager;
 using Microsoft.Data.SqlClient;
 using System.Windows;
 using System.Windows.Input;
