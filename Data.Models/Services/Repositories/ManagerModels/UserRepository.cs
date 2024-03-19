@@ -1,11 +1,5 @@
 ﻿using Data.Models.Data;
 using Data.Models.Models;
-using Data.Models.Services.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Data.Models.Services.Repositories.Manager
 {
